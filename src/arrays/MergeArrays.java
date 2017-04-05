@@ -29,7 +29,7 @@ public class MergeArrays {
             } else if(j > array2.length - 1){
                 array[k] = array1[i];
                 i++;
-            } else if (array1[i] < array2[j]){
+            } else if (array1[i] > array2[j]){
                 array[k] = array1[i];
                 i++;
             } else {
